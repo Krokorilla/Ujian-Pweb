@@ -41,24 +41,24 @@ export default function AddTopic() {
       <input
         onChange={(e) => setTitle(e.target.value)}
         value={title}
-        className="border border-slate-500 px-8 py-2"
+        className="px-8 py-2 border rounded-2xl border-slate-500"
         type="text"
-        placeholder="Topic Title"
+        placeholder="Judul"
       />
 
       <input
         onChange={(e) => setDescription(e.target.value)}
         value={description}
-        className="border border-slate-500 px-8 py-2"
+        className="px-8 py-2 border rounded-2xl border-slate-500"
         type="text"
-        placeholder="Topic Description"
+        placeholder="Deskripsi"
       />
 
       <button
         type="submit"
-        className="bg-green-600 font-bold text-white py-3 px-6 w-fit"
+        className="px-6 py-3 font-bold text-white bg-pink-300 rounded-2xl w-fit"
       >
-        Add Topic
+        Tambah
       </button>
     </form>
   );
